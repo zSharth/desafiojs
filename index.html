@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+
+<body>
+    <!--    contenedor principal de todo list -->
+    <div class="container">
+        <h1 class="title">Todo List</h1>
+        <hr>
+        <label class="sub__title" for="input">Nueva tarea</label>
+        <div class="input__container">
+            <input type="text" id="input" name="input" placeholder="Ingresa una Tarea..." required>
+            <button class="btn-1" id="btn">Agregar</button>
+        </div>
+        <div class="menu__container">
+            <div class="span__container">
+                <span class="span__text">Total: <span id="total">0</span></span></span>
+                <span class="span__text">Realizadas: <span id="realizadas">0</span></span>
+            </div>
+            <div class="submenu__container">
+                <div class="sub__menu">
+                    <div class="sub__menu1">
+                        <span class="span__text span__text--id-title" style="font-weight:bold;">ID</span>
+                        <!--contenedor para la sección id -->
+                        <div id="id" class="id__container">
+                            <!--contenido del id insertado desde javascript-->
+                        </div>
+                    </div>
+                    <div class="sub__menu2">
+                        <span class="span__text" style="font-weight:bold;">Tarea </span>
+                        <!--contenedor para la sección tareas -->
+                        <div id="tareas" class="tareas__container">
+                            <!--contenido de tareas insertado desde javascript-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

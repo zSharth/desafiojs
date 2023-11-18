@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+.container {
+  background-color: #eeebeb;
+  width: 1200px;
+  border: 3px solid black;
+  padding: 30px;
+}
+.title {
+  font-size: 2.8rem;
+}
+hr {
+  margin-top: 20px;
+  height: 4px;
+  background-color: #9b9999;
+}
+.sub__title {
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.input__container {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+input[type="text"] {
+  width: 90%;
+  height: 45px;
+  box-shadow: 1px 1px 1px black;
+}
+[placeholder="Ingresa una Tarea..."] {
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+.btn-1 {
+  height: 45px;
+  width: 100px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+
+  background-color: green;
+  color: white;
+  box-shadow: 2px 2px 2px black;
+}
+.btn-1:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+.menu__container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 60px;
+}
+.span__container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.span__text {
+  font-size: 1.3rem;
+}
+.span__text--box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.id__container {
+  display: flex;
+  flex-direction: column;
+}
+.sub__menu {
+  display: flex;
+  gap: 30px;
+}
+.sub__menu1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.id__container {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.checkbox {
+  margin-left: 100px;
+  transform: scale(1.3);
+}
+.icon:hover {
+  cursor: pointer;
+  filter: brightness(80%);
+}
